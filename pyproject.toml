@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "microlab-1"
+version = "0.1.0"
+description = ""
+authors = ["bfinlayson-utk <bfinlayson@hbu.co>"]
+readme = "README.md"
+packages = [{include = "microlab_1"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
