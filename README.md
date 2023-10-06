@@ -1,3 +1,10 @@
+## Usage
+To view highlighted SMS messages tn the terminal in the root of the project, enter your SMS as follows:
+```
+$ python message_parser.py "Date at Luigis with my family and friends tomorrow at 7?"
+> Date at _Luigis_ with my family and friends _tomorrow at 7_?
+```
+
 ## The Assignment 
 The assignment for this microlab is to replicate the SMSLinks to an external site. functionality found in most phones -- the ability to highlight the time and date mentioned in the SMS.
 
